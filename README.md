@@ -6,74 +6,81 @@ This project focuses on cleaning and preparing a sales dataset for analysis usin
 
 ## Objectives
 
-- Identify missing values
-- Check for duplicate records
-- Correct data formatting issues
-- Validate calculations
-- Prepare data for business analysis
+* Identify missing values
+* Check for duplicate records
+* Correct data formatting issues
+* Validate calculations
+* Prepare data for business analysis
 
 ## Data Cleaning Tasks Completed
 
 ### Missing Values
-- Investigated missing CouponCode records
-- Identified blank entries using filters and COUNTBLANK()
+
+* Investigated missing CouponCode records
+* Identified blank entries using filters and COUNTBLANK()
+
+### Missing Values Check
+
+![Missing Values Check](missing-values-check.png)
+
+---
 
 ### Duplicate Checks
-- Examined OrderID records
-- Verified that repeated OrderIDs represented valid transactions rather than duplicates
+
+* Examined OrderID records
+* Verified that repeated OrderIDs represented valid transactions rather than duplicates
+
+### Duplicate Check
+
+![Duplicate Check](duplicate-check.png)
+
+---
 
 ### Data Validation
-- Verified TotalPrice calculations using:
 
-TotalPrice = Quantity × UnitPrice
+Verified TotalPrice calculations using:
+
+**TotalPrice = Quantity × UnitPrice**
 
 Example:
 
 3 × 499.21 = 1497.63
 
+---
+
 ## Analysis Performed
 
 ### Revenue by Product
 
-| Product | Revenue (£) |
-|----------|----------|
-| Chair | 195,620.11 |
-| Printer | 195,612.61 |
-| Laptop | 192,126.56 |
-| Tablet | 186,568.95 |
-| Monitor | 175,651.41 |
-| Desk | 167,459.93 |
-| Phone | 151,722.39 |
+![Revenue by Product](pivot-table-revenue.png)
 
-### Quantity Sold
+### Quantity Sold by Product
 
-| Product | Quantity Sold |
-|----------|----------|
-| Chair | 562 |
-| Printer | 542 |
-| Laptop | 535 |
-| Desk | 508 |
-| Tablet | 497 |
-| Monitor | 480 |
-| Phone | 411 |
+![Quantity Sold by Product](pivot-table-quantity.png)
+
+---
 
 ## Key Findings
 
-• Chair generated the highest revenue (£195,620.11), indicating strong customer demand.
+* Chair generated the highest revenue (£195,620.11)
+* Printer generated the second-highest revenue (£195,612.61)
+* Phone generated the lowest revenue (£151,722.39)
+* Chair recorded the highest quantity sold (562 units)
+* Phone recorded the lowest quantity sold (411 units)
 
-• Phone generated the lowest revenue (£151,722.39), suggesting lower sales performance compared with other products.
-
-• Cancelled orders represented the largest order status category and may require further investigation.
+---
 
 ## Tools Used
 
-- Microsoft Excel
-- Pivot Tables
-- Filters
-- COUNTBLANK()
-- Data Validation
+* Microsoft Excel
+* Pivot Tables
+* Filters
+* COUNTBLANK()
+* Data Validation
+
+---
 
 ## Author
 
-Lydia
+**Lydia Akosah**
 Aspiring Data Analyst | MSc Digital Health
