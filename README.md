@@ -59,12 +59,11 @@ Example:
 
 ## Key Findings
 
-- Chair generated the highest revenue.
-- Printer generated the second-highest revenue.
-- Phone generated the lowest revenue.
-- Chair recorded the highest quantity sold.
-- Phone recorded the lowest quantity sold.
-- Cancelled orders represented the largest order status category.
+• Chair generated the highest revenue (£195,620.11), indicating strong customer demand.
+
+• Phone generated the lowest revenue (£151,722.39), suggesting lower sales performance compared with other products.
+
+• Cancelled orders represented the largest order status category and may require further investigation.
 
 ## Tools Used
 
